@@ -1,0 +1,137 @@
+.interna-contato {
+  background: url("..//img/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 30px;
+}
+
+/* ORÇAMENTO */
+
+.contato {
+  padding: 40px 0;
+}
+
+.contato-form {
+  padding-right: 60px;
+}
+
+.contato-form label {
+  display: block;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 4px;
+  line-height: 25px;
+}
+
+.contato-form input {
+  border: 4px solid #fec63e;
+  background: none;
+  width: 100%;
+  outline: none;
+  display: block;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contato-form textarea {
+  display: block;
+  border: 4px solid #fec63e;
+  background: none;
+  width: 100%;
+  height: 120px;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contato-form button {
+  border: 4px solid #fec63e;
+  background: none;
+  color: #fec63e;
+  width: 140px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  padding: 5px;
+}
+
+/* quebra */
+
+.quebra-produtos {
+  width: 100%;
+  height: 220px;
+  background: url("../img/bg-filter.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.contato-dados h3 {
+  font-size: 18px;
+  color: #fec63e;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+.contato-dados span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.dados .monte {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.contato-dados ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+.contato-dados ul {
+  padding-right: 60px;
+}
+
+contato-dados p {
+  margin: 8px 0;
+}
+
+.contato-dados .rua {
+  margin-bottom: 30px;
+}
+
+.contato-dados .redes {
+  margin-top: 30px;
+}
+
+.contato-dados ul li a {
+  display: block;
+  border: 3px solid #fec63e;
+  width: 60px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.contato-dados .contato-redes {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contato-footer-redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contato-footer-redes ul li a:hover {
+  border-color: #000;
+}
+
+.contato-mapa {
+  margin-bottom: 60px;
+}
