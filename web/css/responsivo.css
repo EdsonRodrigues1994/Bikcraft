@@ -27,7 +27,62 @@
   .quebra {
     margin-top: 20px;
   }
+
+  /* SOBRE */
+
+  .missao-sobre ul li {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+    width: 280px;
+  }
+
+  .missao-sobre p {
+    font-size: 16px;
+  }
+
+  .qualidade {
+    margin-bottom: 100px;
+  }
+
+  /* PRODUTOS */
+
+  .produto-item h2 {
+    top: -150px;
+    margin-bottom: -55px;
+  }
+
+  .produto-icone {
+    padding: 44.5px 0;
+  }
+  .produto-info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+    height: 112px;
+  }
+
+  .produto-info ul li {
+    width: 181px;
+    height: 49px;
+  }
+
+  /* CONTATO */
+
+  .footer-redes ul li {
+    display: inline-block;
+    margin-right: 2px;
+  }
+
+  .footer-redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;
+  }
 }
+
 /* Responsividade para celulares */
 
 @media only screen and (max-width: 787px) {
@@ -60,6 +115,11 @@
     border-color: #fff;
   }
 
+  .header_menu ul li a.menu-ativo {
+    color: #fff;
+    border-color: #fff;
+  }
+
   /* Introdução */
 
   .introducao {
@@ -78,5 +138,78 @@
 
   .quebra {
     margin-top: 20px;
+  }
+
+  /* Introdução Interna*/
+
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
+  /* SOBRE */
+
+  .missao-sobre p {
+    padding-right: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .missao-sobre h2 {
+    padding-bottom: 20px;
+  }
+
+  .missao-sobre ul li {
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 20px;
+  }
+
+  /* PRODUTOS */
+
+  .produto-item h2 {
+    top: -115px;
+    margin-bottom: -80px;
+  }
+
+  .produto-icone {
+    padding: 44.5px 0;
+  }
+  .produto-info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .produto-info ul li {
+    width: 149px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
+
+  .form {
+    padding-right: 0px;
+  }
+
+  .dados ul {
+    padding-right: 0px;
+  }
+
+  /* CONTATO */
+
+  .contato-form {
+    padding-right: 0px;
+  }
+
+  .contato-dados span {
+    font-size: 16px;
+  }
+
+  .contato-mapa {
+    margin-bottom: 60px;
   }
 }

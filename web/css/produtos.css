@@ -143,6 +143,11 @@
   margin-bottom: 40px;
 }
 
+.form button:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
 /* quebra */
 
 .quebra-produtos {
