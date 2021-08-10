@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/sobre.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
-  <script>document.documentElement.classList.add("ja")</script>  
+  <script>document.documentElement.classList.add("js")</script>  
   <title>Bikcraft - Portfólio</title>
 </head>
 <body>
@@ -34,27 +34,50 @@
 
   <section class="introducao-interna interna-portfolio">
     <div class="container">
-      <h1>Portfólio</h1>
-        <p>Conheça os projetos que amamos mostrar</p>
+      <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+        <p data-anime="800" class="fadeInDown">Conheça os projetos que amamos mostrar</p>
     </div>
   </section>
 
-  <section class="container">
+  <section data-anime="1200" class="container fadeInDown" data-slide="quote">
     <blockquote class="quote-clientes">
       <p>"No mundo atual, a contínua expansão de nossa
         atividade cumpre um papel essencial na formulação da
         festão inovadora da qual fazemos parte."</p>
       <cite>Barbara Moss</cite>
     </blockquote>
+
+    <blockquote class="quote-clientes">
+      <p>"No mundo atual, a contínua expansão de nossa
+        atividade cumpre um papel essencial na formulação da
+        festão inovadora da qual fazemos parte."</p>
+      <cite>Jhonny Rato</cite>
+    </blockquote>
+
+    <blockquote class="quote-clientes">
+      <p>"No mundo atual, a contínua expansão de nossa
+        atividade cumpre um papel essencial na formulação da
+        festão inovadora da qual fazemos parte."</p>
+      <cite>Bernardo</cite>
+    </blockquote>
   </section>
 
-  <section class="portfolio">
+  <section data-anime="1600" class="portfolio fadeInDown" data-slide="portfolio">
     <div class="container">
       <h2 class=subtitulo>portfólio</h2>
       <ul class="portfolio-lista">
         <li class="grid-8"><img src="../web/img/portfolio/retro.jpg" alt="Bicicleta Retro"></li> 
         <li class="grid-8"><img src="../web/img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li> 
         <li class="grid-16"><img src="../web/img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li> 
+      </ul>
+    </div> 
+
+    <div class="container">
+      <h2 class=subtitulo>portfólio</h2>
+      <ul class="portfolio-lista">
+        <li class="grid-16"><img src="../web/img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li> 
+        <li class="passeio-bike grid-8"><img src="../web/img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li> 
+        <li class="grid-8"><img src="../web/img/portfolio/retro.jpg" alt="Bicicleta Retro"></li> 
       </ul>
     </div> 
 </section>
@@ -105,5 +128,9 @@
       </div>
     </div>
   </footer>
+  
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>

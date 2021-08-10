@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/sobre.css">
   <link rel="stylesheet" href="css/responsivo.css">
-  <script>document.documentElement.classList.add("ja")</script>  
+  <script>document.documentElement.classList.add("js")</script>  
   <title>Bikcraft - Sobre</title>
 </head>
 <body>
@@ -33,12 +33,12 @@
 
   <section class="introducao-interna interna-sobre">
     <div class="container">
-      <h1>Sobre</h1>
-        <p>Conheça mais sobre a bikcraft</p>
+      <h1 data-anime="400" class="fadeInDown">Sobre</h1>
+        <p data-anime="800" class="fadeInDown">Conheça mais sobre a bikcraft</p>
     </div>
   </section>
 
-  <section class="missao-sobre container">
+  <section class="missao-sobre container fadeInDown" data-anime="1200">
     <div class="grid-10">
       <h2 class="subtitulo-interno">História, Missão e Visão</h2>
       <p>O verdadeiro segredo da felicidade está em ter um genuíno
@@ -66,7 +66,7 @@
   </section>
 
 
-  <section class="qualidade container" alt="Bikcraft">
+  <section data-anime="1600" class="qualidade container fadeInDown" alt="Bikcraft">
     <h2 class="subtitulo">Qualidade</h2>
     <img src="../web/img/bikcraft-qualidade.svg">
     <ul class="qualidade-lista">
@@ -131,5 +131,7 @@
       </div>
     </div>
   </footer>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
