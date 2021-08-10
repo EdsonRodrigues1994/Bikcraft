@@ -67,6 +67,7 @@
   background-size: cover;
   text-align: center;
   padding-top: 40px;
+  margin-top: 60px;
 }
 
 .contato-dados h3 {
@@ -130,8 +131,4 @@ contato-dados p {
 
 .contato-footer-redes ul li a:hover {
   border-color: #000;
-}
-
-.contato-mapa {
-  margin-bottom: 60px;
 }
