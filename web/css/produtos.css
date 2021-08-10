@@ -141,6 +141,7 @@
   height: 40px;
   margin-top: 15px;
   margin-bottom: 40px;
+  cursor: pointer;
 }
 
 .form button:hover {

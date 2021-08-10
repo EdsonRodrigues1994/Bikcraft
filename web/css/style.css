@@ -24,16 +24,19 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .btn:hover {
   color: #fff;
   border-color: #fff;
+  cursor: pointer;
 }
 
 .btn.btn-preto:hover {
   color: #000;
   border-color: #000;
+  cursor: pointer;
 }
 
 .subtitulo {
@@ -412,6 +415,7 @@ img {
   text-indent: -99px;
   overflow: hidden;
   background: #1d1d1d;
+  cursor: pointer;
 }
 
 [data-slide-nav] button.active {
